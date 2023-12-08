@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2do_Parcial.Yani</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="js.js"></script></head>
+    <body onload="startTime()">
+    <div class="contenedor-principal">
+        <div class="menudeinicio">
+          <ul>
+            <li>Inicio</li>
+            <li>nosotros somos</li>
+            <li>trabajos</li>
+            <li><input class="input" type="textB" value="" placeholder="buscar">
+            </li>
+            <li><button class="btn1">BUSCAR</button></li>
+            <li><button class="btn1">inicio de secion </button></li>
+          </ul>
+        </div>
+        <div class="barra-header">
+          <div class="logo1">
+            <div class="img-logo">
+                <img src="imgVS/logo1.png" width="400px" height="180px" alt=" ">
+                
+            </div>
+          </div>
+
+            <div class="menutitulo">
+             <h1 class="mt">CURSOS DE DISEÑO</h1>
+            </div>
+         
+        </div>
+        <div class="menu.in">
+            <ul>
+                <li>Inicio</li>
+                <li>Cursos</li>
+                <li>herramientas</li>
+                <li>profesores</li>
+            </ul>
+          </div>
+   
+    </div>
+    <div class="contenedor">
+        <div class="cont1">
+            <div class="lema">
+                <h1>cursos de diseño grafico </h1>
+                <p>Este curso proporciona una introducción a los principios fundamentales del diseño gráfico. Cubre conceptos como composición, equilibrio, color, tipografía y más. </p>
+                <p>Es ideal para principiantes que desean establecer una base sólida en diseño.</p>
+            </div>
+            <div class="imagen1">
+                <img src="imgVS/diseño-grafico.jpg" width="400px" height="230px" alt=" ">
+            </div>
+            <div class="imagen2">
+                   <img src="imgVS/img2.jpg" width="380px" height="180px" alt=" ">
+              </div>
+              
+        </div>
+        <div class="cont2">
+            <div class="contenedor">
+                <div class="c1">
+                    <div class="img1">
+                           <img src="imgVS/img2.jpg" width="330px" height="180px" alt=" ">
+                      </div>
+                </div>
+                <div class="descrip">
+                    <h3>descrpcion general </h3>
+                    <p>Un curso general de diseño gráfico proporciona una amplia introducción a los principios fundamentales y las habilidades esenciales necesarias para trabajar en la industria del diseño visual. A lo largo del curso, los participantes exploran conceptos clave como composición, color, tipografía, branding, y diseño digital. El objetivo es dotar a los estudiantes con las habilidades necesarias para crear piezas visuales atractivas y efectivas en diversos contextos.</p>
+                   
+                </div>
+                <div class="tipos">
+                    <h3>tipos de cursos </h3>
+                    <p>entre los cusros estan desde los fundamentos hastas los distintos prgramas que se utilizaran</p>
+                   
+                </div>
+                <div class="cursos">
+                    <h3>tipos de cursos</h3>
+                        <p>•Curso de Fundamentos del Diseño Gráfico</p>
+                        <p>•Curso de Adobe Illustrator</p>
+                        <p>•Curso de Adobe Photoshop</p>
+                        <p>•Curso de Adobe InDesign</p>
+                        <p>•Curso de Animación Gráfica</p>
+                   
+                </div>
+                <div class="porque">
+                    <h3>¿por que debes apredender el diseño grafico?</h3>
+                    <p>Sumergirse en el mundo del diseño gráfico es como abrir una puerta hacia la creatividad ilimitada. Es la habilidad de dar vida a ideas, contar historias visualmente y comunicar mensajes de manera impactante. Imagina tener el poder de influir en la percepción de las personas a través de colores, formas y tipografías. El diseño gráfico es la herramienta que transforma lo ordinario en extraordinario, creando conexiones emocionales a través de imágenes y diseño. Si anhelas ser el arquitecto de experiencias visuales memorables, el diseño gráfico te ofrece el lienzo para construir tu propio mundo visual.</p>
+                </div>
+                <div class="tablas">
+                    <table class="content-table">
+                        <thead> <tr> <th>Primera columna</th>
+                             <th>Segunda columna</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>a</td>
+                                <td>a</td>
+                            </tr>
+                            <td>b</td>
+                                 <td>b</td>
+                                 </tr>
+                                  <tr>
+                                    <td>c</td>
+                                    <td>c</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                <div class="cont1">
+                    <div class="seccion">
+                          <article class="photoshop">
+                            <div class="image"><img src="imgVS/Adobe_Photoshop_CC_icon.svg.png" width="120px" height="120px" alt=" "></div>
+                            <p>Curso de Adobe Photoshop</p>
+                          </article>
+                          <article class="Illustrator">
+                            <div class="image"><img src="imgVS/Adobe_Illustrator_CC_icon.svg.png" width="120px" height="120px" alt=" "></div>
+                            <p>Curso de Adobe Illustrator </p>
+                          </article>
+                     </div>
+
+                </div>
+                  <div class="reloj">
+                    <div id="clockdate">
+                        <div class="clockdate-wrapper">
+                          <div id="clock"></div>
+                          <div id="date"></div>
+                        </div>
+                      </div>
+                   </div>
+                <div class="contador">
+                    <h3>Contador de clicks</h3>
+                    <button id="botonClick">Click</button>
+                    <p id="areaContador"></p>
+                    <script type="text/javascript">
+                        var botonElement = document.getElementById("botonClick");
+                        var pElement = document.getElementById("areaContador");
+                        var contador = 0;
+                        botonElement.onclick = function () {
+                            contador++;
+                            pElement.textContent = contador;
+                        }
+                    </script>
+                  </div>
+                         </div>  
+             
+                        </div>
+                  </div>
+            </div>
+           
+        
+        </div>
+        </div>
+      </div>
+     
+</body>
+ 
+</html>
